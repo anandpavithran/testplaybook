@@ -1,0 +1,9 @@
+---
+- name: demo
+  hosts: all
+  tasks:
+   - name: task1
+     ansible.builtin.user:
+      name: anand
+      state: present
+...
